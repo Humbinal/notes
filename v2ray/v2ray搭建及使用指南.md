@@ -128,6 +128,21 @@ Linux(GUI): https://github.com/jiangxufeng/v2rayL
 
 跨平台UI客户端: https://github.com/Qv2ray/Qv2ray
 
+linux下配置Qv2ray:
+图标下载: https://raw.githubusercontent.com/Qv2ray/Qv2ray/master/assets/icons/qv2ray.png
+
+
+cat /usr/share/applications/qv2ray.desktop
+```
+[Desktop Entry]
+Name=Qv2ray
+Exec=/data/software/Qv2ray/Qv2ray.v2.7.0-pre2.linux-x64.AppImage
+Icon=/data/software/Qv2ray/qv2ray.png
+Type=Application
+StartupNotify=true
+```
+
+
 命令行客户端:
 v2ray-core既是服务端也是客户端，github的Release列表里可以下载数十种平台的绿色安装包。
 Linux(命令行): 
